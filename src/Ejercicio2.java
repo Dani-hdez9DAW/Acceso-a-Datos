@@ -51,12 +51,13 @@ public class Ejercicio2 {
 
         if (fichero.exists()) {
             if (fichero.delete()) {
-                System.out.println("Fichero eliminado correctamente.");
+                System.out.println("Su fichero ha sido borrado");
             } else {
-                System.out.println("No se pudo eliminar el fichero.");
+
+                System.out.println("No se puede borrar el fichero");
             }
         } else {
-            System.out.println("El fichero no existe.");
+            System.out.println("No se puede borrar el fichero");
         }
     }
 
